@@ -14,6 +14,7 @@ public class HelloWebViewActivity extends Activity {
 		public boolean shouldOverrideUrlLoading(WebView view, String url) {
 			view.loadUrl(url);
 			//heelo
+			//sd
 			return true;
 		}
 		 
